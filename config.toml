@@ -1,0 +1,11 @@
+languageCode = "en-us"
+title = "waschnick.de"
+author = "Sebastian Waschnick"
+theme = "waschnick"
+
+canonifyurls = true
+baseurl = "https://sebastian.waschnick.de/"
+
+[indexes]
+category = "categories"
+tag = "tags"
