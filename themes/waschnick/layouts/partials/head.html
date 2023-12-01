@@ -7,8 +7,11 @@
     <!-- Enable responsiveness on mobile devices-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
     <title>waschnick.de · Sebastian Waschnick · programmer · burger lover · techie</title>
-    <!-- CSS -->
-    <link rel="stylesheet" type="text/css" href="{{ .Site.BaseURL }}/css/waschnick.css"/>
+
+    {{ with resources.Get "style.scss" | toCSS | minify | fingerprint }}
+    <link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous">
+    {{ end }}
+
     <!-- Icons -->
     <!--<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">-->
     <link rel="shortcut icon" href="/favicon.ico">
@@ -17,6 +20,6 @@
 
 <body>
 
-<header>
-    <a href="{{ .Site.BaseURL }}"><img src="/images/logo2.svg"></a>
-</header>
+    <header>
+        <a href="{{ .Site.BaseURL }}"><img src="/images/logo2.svg"></a>
+    </header>

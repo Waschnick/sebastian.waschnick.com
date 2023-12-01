@@ -1,6 +1,6 @@
 .PHONY: build start
 
-install:
+setup:
 	brew install hugo
 
 build:
