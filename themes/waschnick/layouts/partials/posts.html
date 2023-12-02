@@ -1,7 +1,7 @@
 <ul id="posts" class="article-index">
     <div>
         {{ range first 10 site.Data.blog_posts }}
-            {{ partial "posts_single_item"}}
+            {{ partial "posts_single_item" . }}
         {{ end }}
     </div>
 </ul>

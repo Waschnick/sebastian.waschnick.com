@@ -1,6 +1,6 @@
 <li class="article-item">
-    <a class="article-permalink" href="{{ .Permalink }}">
+    <a class="article-permalink" href="{{ .Permalink }}" target="_blank">
         <h3 class="article-title">{{ .Title }}</h3>
-        <span class="article-publish-date">{{ .Date.Format "Mon, Jan 2, 2006" }}</span>
+        <span class="article-publish-date">{{ .Date }} @ {{ .Source }}</span>
     </a>
 </li>

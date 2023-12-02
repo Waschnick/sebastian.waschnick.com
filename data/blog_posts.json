@@ -1,9 +1,128 @@
 [
   {
-    "Title": "1",
-    "Permalink": "https://asdf.com"
+    "Title": "User Authentication With AWS Cognito: The Good, The Bad And The Ugly",
+    "Permalink": "https://www.zeile7.de/insight/user-authentication-with-aws-cognito/",
+    "Date": "",
+    "Source": "Zeile7"
   },
   {
-    "title": "2"
+    "Title": "Should I Use AWS Cognito For User Authentication?",
+    "Permalink": "https://www.zeile7.de/insight/should-i-use-aws-cognito-for-user-authentication/",
+    "Date": "",
+    "Source": "Zeile7"
+  },
+  {
+    "Title": "Level Up Your Home Office: My7 Tips For More Ergonomics",
+    "Permalink": "https://www.zeile7.de/insight/level-up-your-home-office/",
+    "Date": "",
+    "Source": "Zeile7"
+  },
+  {
+    "Title": "How To Become A Better Developer (Without Coding)",
+    "Permalink": "https://www.zeile7.de/insight/how-to-become-a-better-developer/",
+    "Date": "",
+    "Source": "Zeile7"
+  },
+  {
+    "Permalink": "https://www.linkedin.com/pulse/make-your-world-bigger-working-out-loud-sebastian-waschnick",
+    "Title": "Make your world bigger with Working Out Loud",
+    "Date": "2nd of September, 2019",
+    "Source": "LinkedIn"
+  },
+  {
+    "Permalink": "https://medium.com/axel-springer-tech/how-to-attract-talent-for-your-startup-6c2ca047da6",
+    "Title": "How, to attract talent for your startup",
+    "Date": "27th of August, 2019",
+    "Source": "Medium.com"
+  },
+  {
+    "Permalink": "https://medium.com/axel-springer-tech/techbreakfast-est-2013-a-story-of-many-croissants-f458301b46fb",
+    "Title": "Techbreakfast est. 2013: A story of many croissants",
+    "Date": "20th of August, 2019",
+    "Source": "Medium.com"
+  },
+  {
+    "Permalink": "https://medium.com/axel-springer-tech/7-reasons-why-you-should-go-to-a-hackathon-a65f3d4c47ce",
+    "Title": "7 reasons why you should go to a Hackathon",
+    "Date": "20th of August, 2019",
+    "Source": "Medium.com"
+  },
+  {
+    "Permalink": "https://medium.com/axel-springer-tech/42-hours-at-a-hackathon-440467457ec7",
+    "Title": "42 hours at a Hackathon",
+    "Date": "20th of August, 2019",
+    "Source": "Medium.com"
+  },
+  {
+    "Permalink": "https://www.linkedin.com/pulse/how-attract-talent-your-startup-sebastian-waschnick",
+    "Title": "How to attract talent for your startup",
+    "Date": "13th of August, 2019",
+    "Source": "LinkedIn"
+  },
+  {
+    "Permalink": "https://www.linkedin.com/pulse/gute-stellenausschreibungen-schlechte-sebastian-waschnick",
+    "Title": "Gute Stellenausschreibungen, Schlechte Stellenausschreibungen",
+    "Date": "24th of April, 2019",
+    "Source": "LinkedIn"
+  },
+  {
+    "Permalink": "https://www.linkedin.com/pulse/cultural-hack-2-und-wie-gehts-uns-denn-heute-kalender-waschnick",
+    "Title": "Cultural Hack #2: Und wie geht's uns denn heute? Digitaler Niko-niko Kalender",
+    "Date": "30th of November, 2018",
+    "Source": "LinkedIn"
+  },
+  {
+    "Permalink": "https://www.linkedin.com/pulse/cultural-hack-1-die-kudos-box-aus-dem-schuhkarton-sebastian-waschnick",
+    "Title": "Cultural Hack #1: Die Kudos-Box aus dem Schuhkarton",
+    "Date": "27th of November, 2018",
+    "Source": "LinkedIn"
+  },
+  {
+    "Permalink": "https://www.linkedin.com/pulse/kultur-kann-man-nicht-managen-cultural-hacks-zum-selber-waschnick",
+    "Title": "Kultur kann man nicht managen: Cultural Hacks zum selber Ausprobieren",
+    "Date": "19th of November, 2018",
+    "Source": "LinkedIn"
+  },
+  {
+    "Permalink": "https://www.linkedin.com/pulse/axel-springer-aws-cloud-summit-sebastian-waschnick",
+    "Title": "Axel Springer AWS Cloud Summit",
+    "Date": "8th of October, 2018",
+    "Source": "LinkedIn"
+  },
+  {
+    "Permalink": "https://www.linkedin.com/pulse/recruiting-20-talk-cheap-show-me-your-code-sebastian-waschnick",
+    "Title": "Recruiting 2.0: Talk is cheap, show me your code",
+    "Date": "21th of August, 2018",
+    "Source": "LinkedIn"
+  },
+  {
+    "Permalink": "https://www.linkedin.com/pulse/recruiting-20-wie-wir-bei-ideas-engineering-sebastian-waschnick",
+    "Title": "Recruiting 2.0: Wie wir bei Ideas Engineering rekrutieren",
+    "Date": "6th of July, 2018",
+    "Source": "LinkedIn"
+  },
+  {
+    "Permalink": "https://www.linkedin.com/pulse/ein-kleiner-einstieg-agilit%25C3%25A4t-7-tipps-f%25C3%25BCr-besseres-waschnick",
+    "Title": "Ein kleiner Einstieg in Agilität: 7 Tipps für besseres Arbeiten",
+    "Date": "14th of April, 2018",
+    "Source": "LinkedIn"
+  },
+  {
+    "Permalink": "https://www.linkedin.com/pulse/7-reasons-why-you-should-go-hackathon-sebastian-waschnick",
+    "Title": "7 reasons why you should go to a Hackathon",
+    "Date": "28th of October, 2016",
+    "Source": "LinkedIn"
+  },
+  {
+    "Permalink": "https://www.linkedin.com/pulse/42-hours-hackathon-sebastian-waschnick",
+    "Title": "42 hours at a Hackathon",
+    "Date": "24th of October, 2016",
+    "Source": "LinkedIn"
+  },
+  {
+    "Permalink": "https://www.linkedin.com/pulse/coderetreat-irgendwer-sebastian-waschnick",
+    "Title": "Coderetreat, irgendwer?",
+    "Date": "14th of October, 2016",
+    "Source": "LinkedIn"
   }
 ]

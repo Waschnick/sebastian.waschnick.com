@@ -1,6 +1,9 @@
 $primary-color: #E94127;
 $primary-color-blue: #123456;
 
+@import 'reset';
+@import 'home_posts';
+
 header {
   height: 120px;
   background-color: $primary-color;
@@ -12,10 +15,6 @@ header {
     margin: auto;
     top: 20px;
   }
-}
-
-body {
-  margin: 0;
 }
 
 body {
