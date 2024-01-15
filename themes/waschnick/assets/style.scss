@@ -3,118 +3,124 @@ $primary-color-blue: #123456;
 
 @import 'reset';
 @import 'home_posts';
+@import 'cv';
 
 header {
-  height: 120px;
-  background-color: $primary-color;
-  text-align: center;
+    height: 120px;
+    background-color: $primary-color;
+    text-align: center;
 
-  img {
-    position: relative;
-    height: 70%;
-    margin: auto;
-    top: 20px;
-  }
+    img {
+        position: relative;
+        height: 70%;
+        margin: auto;
+        top: 20px;
+    }
 }
 
 body {
-  font-family: "Georgia", serif;
-  font-size: 16px;
-  min-width: 300px;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    font-family: "Georgia", serif;
+    font-size: 16px;
+    min-width: 300px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 .intro {
-  padding: 3.5em 1em 1.5em;
-  max-width: 600px;
-  margin: 0 auto;
-  text-align: center;
+    padding: 3.5em 1em 1.5em;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
 
-  .contact-links {
+
+    p {
+        line-height: 1.5;
+        font-style: italic;
+        margin: 0;
+
+        a {
+            color: $primary-color;
+        }
+    }
+
+    .grey-duck-logo {
+        margin: 2em 0;
+    }
+}
+
+.contact-links {
     margin: 0;
 
     li {
-      display: inline-block;
-      //margin: 0 0.1em;
+        display: inline-block;
+        //margin: 0 0.1em;
 
-      a {
-        margin: 0.5em 0 0 0;
-        padding: 0;
-        border: 0;
-        vertical-align: baseline;
+        a {
+            margin: 0.5em 0 0 0;
+            padding: 0;
+            border: 0;
+            vertical-align: baseline;
 
-        text-decoration: none;
-        font-size: 2em;
-        color: $primary-color;
-        border-radius: 50%;
-        width: 52px;
-        height: 52px;
-        display: block;
-        transition: background, 0.25s;
-      }
+            text-decoration: none;
+            font-size: 2em;
+            color: $primary-color;
+            border-radius: 50%;
+            width: 52px;
+            height: 52px;
+            display: block;
+            transition: background, 0.25s;
+        }
 
-      a:hover {
-        background-color: $primary-color;
-        color: white;
-        text-decoration: underline;
-      }
+        a:hover {
+            background-color: $primary-color;
+            color: white;
+            text-decoration: underline;
+        }
     }
-  }
-
-  p {
-    line-height: 1.5;
-    font-style: italic;
-    margin: 0;
-
-    a {
-      color: $primary-color;
-    }
-  }
-
-  .grey-duck-logo {
-    margin: 2em 0;
-  }
 }
 
 @font-face {
-  font-family: 'Mono Social Icons Font';
-  src: url('../fonts/MonoSocialIconsFont-1.10.woff') format('woff2');
-  font-weight: normal;
-  font-style: normal;
+    font-family: 'Mono Social Icons Font';
+    src: url('../fonts/MonoSocialIconsFont-1.10.woff') format('woff2');
+    font-weight: normal;
+    font-style: normal;
 }
 
 .symbol, a.symbol:before {
-  font-family: 'Mono Social Icons Font';
-  -webkit-text-rendering: optimizeLegibility;
-  -moz-text-rendering: optimizeLegibility;
-  -ms-text-rendering: optimizeLegibility;
-  -o-text-rendering: optimizeLegibility;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-font-smoothing: antialiased;
-  -ms-font-smoothing: antialiased;
-  -o-font-smoothing: antialiased;
-  font-smoothing: antialiased;
+    font-family: 'Mono Social Icons Font';
+    -webkit-text-rendering: optimizeLegibility;
+    -moz-text-rendering: optimizeLegibility;
+    -ms-text-rendering: optimizeLegibility;
+    -o-text-rendering: optimizeLegibility;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -ms-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+    font-smoothing: antialiased;
 }
 
 a.symbol:before {
-  content: attr(title);
-  //margin-right: 0.3em;
-  //font-size: 130%;
+    content: attr(title);
+    //margin-right: 0.3em;
+    //font-size: 130%;
 }
 
 .site-footer {
-  text-align: center;
-  color: #666;
-  padding: 2em 0;
-
-  a {
+    text-align: center;
     color: #666;
-    text-decoration: none;
-  }
+    padding: 2em 0;
 
-  a:hover {
-    text-decoration: underline;
-  }
+    a {
+        color: #666;
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+}
+
+.content-wrapper {
+    padding: 12px;
 }

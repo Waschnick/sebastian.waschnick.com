@@ -3,7 +3,7 @@ Description = "Impressum"
 title = "Impressum"
 +++
 <p>Sebastian Waschnick<br />
-Breite Str. 49<br />13187 Berlin</p>
+Haupstr. 35<br />04416 Markkleeberg</p>
 <p>Telefon: 0179 7382718<br />
 E-Mail: <a href="mailto:barriwaschi@web.de">barriwaschi@web.de</a><br />
 </p>

@@ -9,3 +9,6 @@ baseurl = "https://sebastian.waschnick.de/"
 [indexes]
 category = "categories"
 tag = "tags"
+
+[markup.goldmark.renderer]
+unsafe = true

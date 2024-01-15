@@ -1,0 +1,91 @@
+.cover {
+    height: 620px;
+
+    .btn-info {
+        background-color: $primary-color;
+    }
+
+    .mask {
+        //style="background-color: rgba(0, 0, 0, 0.7);backdrop-filter: blur(2px);"
+        background-color: white;
+        border: 2px solid $primary-color;
+        color: $primary-color;
+
+    }
+
+    .contact-links {
+        padding: 0;
+
+        .btw-download {
+
+        }
+
+        .btw-contact {
+
+        }
+    }
+
+
+}
+
+.avatar img {
+    border-radius: 50%;
+}
+
+
+.contant-section {
+    .btn-send-contact {
+        background-color: $primary-color !important;
+    }
+
+    .form-outline .form-control {
+        background-color: #fff;
+        background-clip: padding-box;
+        border: 1px solid #bdbdbd;
+    }
+
+    label {
+        margin: 0;
+    }
+}
+
+
+/* Timeline custom component */
+.timeline-card {
+    position: relative;
+    margin-left: 16px;
+}
+
+.timeline-card:before {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    background-color: #fff;
+    border-radius: 100%;
+    width: 24px;
+    height: 24px;
+    top: 16px;
+    left: -12px;
+    border: 5px solid;
+    z-index: 2;
+}
+
+.timeline-body {
+    border-left: 2px solid #E6E9ED;
+}
+
+.timeline-card-primary:before {
+    border-color: #1266f1;
+}
+
+.timeline-card-info:before {
+    border-color: $primary-color;
+}
+
+.timeline-card-secondary:before {
+    border-color: #b23cfd;
+}
+
+.timeline-card-success:before {
+    border-color: #20c997;
+}
