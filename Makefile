@@ -3,14 +3,19 @@
 setup:
 	brew install hugo
 
+deploy:
+	AWS_PROFILE=waschi aws s3 sync ./public s3://sebastian.waschnick.com
+	AWS_PROFILE=waschi aws cloudfront create-invalidation --distribution-id E2R7DAI3A3LS13 --paths "/*"
+
+
 build:
-	HUGO_ENV="production" hugo --baseURL "https://www.zeile7.de"
+	HUGO_ENV="production" hugo --baseURL "https://sebastian.waschnick.com"
 
 pre-build:
 	bash scripts/optimize_images.sh
 
 build-dev:
-	hugo --minify --buildFuture --buildExpired --buildDrafts --baseURL "https://staging.zeile7.de" --config  config.toml,config-dev.toml
+	hugo --minify --buildFuture --buildExpired --buildDrafts --baseURL "https://staging.waschnick.com" --config  config.toml,config-dev.toml
 
 start: start-dev
 start-dev:

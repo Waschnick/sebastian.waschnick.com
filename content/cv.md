@@ -320,15 +320,15 @@ Description = "CV"
                                       method="POST">
                                     <div class="form-outline mb-4">
                                         <label class="form-label" for="name">Name</label>
-                                        <input type="text" id="name" class="form-control" required placeholder="Name" />
+                                        <input type="text" id="name" name="name" class="form-control" required placeholder="Name" />
                                     </div>
                                     <div class="form-outline mb-4">
                                         <label class="form-label" for="email">E-Mail address</label>
-                                        <input type="email" id="email" class="form-control" required placeholder="E-Mail address" />
+                                        <input type="email" id="email" name="email" class="form-control" required placeholder="E-Mail address" />
                                     </div>
                                     <div class="form-outline mb-4">
                                         <label class="form-label" for="message">Message</label>
-                                        <textarea class="form-control" style="resize: none;" id="message" rows="4" required placeholder="Your message"></textarea>
+                                        <textarea class="form-control" name="message" style="resize: none;" id="message" rows="4" required placeholder="Your message"></textarea>
                                     </div>
                                     <button class="btn btn-send-contact btn-info btn-block mb-4" type="submit">Send</button>
                                 </form>
