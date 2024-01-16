@@ -1,8 +1,8 @@
 terraform-init:
-	rm -rf .terraform && AWS_PROFILE=waschi terraform init -backend-config=_environments/development.config
+	rm -rf .terraform && AWS_PROFILE=waschi terraform init
 
 terraform-plan:
-	AWS_PROFILE=ush-dev terraform plan -var-file=_environments/development.tfvars
+	AWS_PROFILE=waschi terraform plan
 
 terraform-apply:
-	AWS_PROFILE=ush-dev terraform apply -var-file=_environments/development.tfvars
+	AWS_PROFILE=waschi terraform apply

@@ -1,8 +1,8 @@
 terraform {
   backend "s3" {
-    bucket  = "finanzassistent-dev-terraform"
-    key     = "statefiles/services/homeadvantageapi"
-    encrypt = false
+    bucket  = "terraform-states-sebastian-waschnick"
+    key     = "sebastian-waschnick-com"
+    encrypt = true
     region  = "eu-central-1"
   }
 }

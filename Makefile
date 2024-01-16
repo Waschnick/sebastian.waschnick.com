@@ -24,5 +24,5 @@ start-dev:
 start-prod:
 	HUGO_ENV="production" hugo server -p 8080
 
-crawl-linked:
-	bash scripts/crawl_linkedin.sh
+deploy:
+    AWS_PROFILE=waschi aws s3 sync ./public s3://sebastian.waschnick.com
