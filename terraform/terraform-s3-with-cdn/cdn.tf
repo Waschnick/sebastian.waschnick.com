@@ -100,6 +100,11 @@ resource "aws_cloudfront_distribution" "website_cdn_root" {
         forward = "none"
       }
     }
+
+    function_association {
+      event_type   = "viewer-request"
+      function_arn = aws_cloudfront_function.root-to-index-cf-function.arn
+    }
   }
 
   restrictions {
